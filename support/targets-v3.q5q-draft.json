@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 3,
+  "payloads": [
+    {
+      "payloadId": "q5q-F9460ZSS9GZG3",
+      "displayName": "Galaxy Z Fold 5 (国行) | Kernel 5.15.189",
+      "models": ["SM-F9460"],
+      "kernelVersions": ["5.15.189"],
+      "requiresFreshP0Session": true,
+      "exploit": {
+        "url": "https://raw.githubusercontent.com/m1k0to/Root-My-Galaxy-Payloads/main/artifacts/q5q-F9460ZSS9GZG3/cve-2026-43499-app.so",
+        "size": 133208
+      },
+      "kernelsu": {
+        "url": "https://raw.githubusercontent.com/m1k0to/Root-My-Galaxy-Payloads/main/kernelsu/ksud-dm3q-S918BXXSAFZF5-kdp",
+        "size": 4879560,
+        "_note": "占位(可下载)。vermagic=5.15.189-android13-8-33404244-abF9460ZSS9GZG3 的 q5q 专用 ksud 未构建;bootstrap root 不依赖此模块。"
+      }
+    }
+  ]
+}
